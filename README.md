@@ -24,6 +24,20 @@
     3.3 Permission (sub menu - optional )
 ```
 4. On header interface. display the name of the logged in user as well as the menu for logout
+5. After authentication , the user should be redirected to a blank dashboard
+
+Authentication
+ ```
+ 1.1 User will be able to login using email and password
+ 1.2 Three failed attempt will lock the users for 5 minutes
+ 
+ ```
+User Mangament 
+ ```
+ 1 CRUD users
+ 2 Change password
+ 3 search user by username and email
+ ```
 
 ## Packages
 - [Laravel UI](https://github.com/laravel/ui)
@@ -35,6 +49,7 @@
 
 ## Todo
 - [x] ~~Create Panel Admin By bootsrap 4~~
+- [x] ~~User Management~~
 
 
 ## Credits
