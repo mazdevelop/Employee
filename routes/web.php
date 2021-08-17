@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Backend\CityController;
 use App\Http\Controllers\Backend\UserController;
 use App\Http\Controllers\Backend\StateController;
 use App\Http\Controllers\Backend\CountryController;
@@ -24,9 +25,10 @@ Route::get('/', function () {
 Auth::routes();
 Route::group(['prefix'=>'dashboard/'],function ()
 {
-    Route::resource('user',UserController::class); 
-    Route::resource('country',CountryController::class); 
-    Route::resource('state',StateController::class); 
+    Route::resource('user',UserController::class)->except(['show']); 
+    Route::resource('country',CountryController::class)->except(['show']); 
+    Route::resource('state',StateController::class)->except(['show']); 
+    Route::resource('city',CityController::class)->except(['show']); 
     Route::post('user/{user}/change-password',[ChangePasswordController::class ,'change_password'])->name('user.change.password'); 
 });
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

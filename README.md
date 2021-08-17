@@ -46,6 +46,9 @@ System  Mangament
  2 State
     2.1 crud state
     2.2 search state by name
+ 3 City
+    3.1 crud state
+    3.2 search state by name
  
  ```
 

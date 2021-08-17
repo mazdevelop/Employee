@@ -33,7 +33,7 @@
                         <a class="collapse-item" href="{{ route('country.index') }}">Country</a>
                         <a class="collapse-item" href="{{ route('state.index') }}">State</a>
                         <a class="collapse-item" href="forgot-password.html">Department</a>
-                        <a class="collapse-item" href="register.html">City</a>
+                        <a class="collapse-item" href="{{ route('city.index') }}">City</a>
 
                     </div>
                 </div>
