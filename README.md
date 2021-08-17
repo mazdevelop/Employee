@@ -38,6 +38,13 @@ User Mangament
  2 Change password
  3 search user by username and email
  ```
+System  Mangament 
+ ```
+ 1 Country
+    1.1 crud Country
+    1.2 search country by code and name
+ 
+ ```
 
 ## Packages
 - [Laravel UI](https://github.com/laravel/ui)
