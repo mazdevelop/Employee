@@ -41,8 +41,11 @@ User Mangament
 System  Mangament 
  ```
  1 Country
-    1.1 crud Country
+    1.1 crud country
     1.2 search country by code and name
+ 2 State
+    2.1 crud state
+    2.2 search state by name
  
  ```
 
