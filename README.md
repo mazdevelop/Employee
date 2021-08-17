@@ -49,6 +49,9 @@ System  Mangament
  3 City
     3.1 crud state
     3.2 search state by name
+ 3 Department
+    3.1 crud department
+    3.2 search department by name
  
  ```
 
