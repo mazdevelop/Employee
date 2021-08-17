@@ -11,15 +11,18 @@
 ## User Interface
 1. Interface should be responsive based on HTML5 and bootstrap 4.
 2. User interface layout should have side bar menu and header.
+```
     1.On side bar the following should be displayed as vertical menu
         1.Dashboard
         2.Employee Management
         3.System Management
-
+```
 3. User managment 
+```
     3.1 User (sub menu)
     3.2 User (sub menu - optional )
     3.3 Permission (sub menu - optional )
+```
 4. On header interface. display the name of the logged in user as well as the menu for logout
 
 ## Packages
