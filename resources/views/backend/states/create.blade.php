@@ -12,7 +12,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class=" d-flex align-items-center justify-content-between">
-                        <div>{{ __('Create Country') }}</div>
+                        <div>{{ __('Create State') }}</div>
                         <a href="{{ route('state.index') }}" class="btn btn-outline-primary">back</a>
                     </div>
                 </div>
@@ -62,5 +62,5 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 @endsection

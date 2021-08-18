@@ -33,4 +33,7 @@ Route::group(['prefix'=>'dashboard/'],function ()
     Route::resource('department',DepartmentController::class)->except(['show']); 
     Route::post('user/{user}/change-password',[ChangePasswordController::class ,'change_password'])->name('user.change.password'); 
 });
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/{any}', function ()
+{
+    return view('backend.employee.index');
+})->where('any','.*');

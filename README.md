@@ -49,10 +49,20 @@ System  Mangament
  3 City
     3.1 crud state
     3.2 search state by name
- 3 Department
-    3.1 crud department
-    3.2 search department by name
+ 4 Department
+    4.1 crud department
+    4.2 search department by name
  
+ ```
+Employee Mangament 
+ ```
+   1.list of employees with search and filter by employee name and department.
+   2.CRUD employees
+ ```
+ API
+ ```
+   -Create an API end point for user registration and authentication.
+   -Create an API end point to list all employee order alphabetically by lastname.
  ```
 
 ## Packages
