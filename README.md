@@ -76,6 +76,8 @@ Employee Mangament
 ## Todo
 - [x] ~~Create Panel Admin By bootsrap 4~~
 - [x] ~~User Management~~
+- [x] ~~Employee Mangament~~
+- [x] ~~API~~
 
 
 ## Credits
